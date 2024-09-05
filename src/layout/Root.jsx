@@ -8,7 +8,7 @@ const Root = () => {
     const location =useLocation()
     console.log(location.pathname)
     return (    
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto font-barlow'>
             {
                 location.pathname ==='/login' || location.pathname ==='/Register' ? <></> : <Navbar/>
             }
